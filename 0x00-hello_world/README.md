@@ -6,4 +6,5 @@ C -programming projects
 4-puts.c - c program to print single line using puts
 5-printf.c - c program that uses printf
 6-size.c - c program to get sizes of multiple types
+100-intel - c program to generate assembly code
 
