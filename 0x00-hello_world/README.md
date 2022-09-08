@@ -5,4 +5,5 @@ C -programming projects
 3-name - Script to compile and generate an executable file
 4-puts.c - c program to print single line using puts
 5-printf.c - c program that uses printf
+6-size.c - c program to get sizes of multiple types
 
