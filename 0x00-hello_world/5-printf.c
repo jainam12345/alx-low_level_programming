@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
-main - uses printf to display output
-Return: always a (0) 
+ *main - Entry point
+ *Return: always a (0)
 */
 int main(void)
 {
