@@ -7,4 +7,5 @@ C -programming projects
 5-printf.c - c program that uses printf
 6-size.c - c program to get sizes of multiple types
 100-intel - c program to generate assembly code
+101-quote.c - c program to print with out using printf or puts
 
