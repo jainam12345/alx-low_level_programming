@@ -1,3 +1,4 @@
 C -programming projects
-0-preprocessor - C hello world script
+0-preprocessor -  Script that performs only preprocessing
+1-compiler - Script that only performs compiling
 
