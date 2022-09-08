@@ -3,4 +3,5 @@ C -programming projects
 1-compiler - Script that only performs compiling
 2-assembler - Script to only assemble code
 3-name - Script to compile and generate an executable file
+4-puts.c - c program to print single line using puts
 
