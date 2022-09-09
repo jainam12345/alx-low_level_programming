@@ -9,3 +9,4 @@ C -programs using logic controls and loops
 7-print_tebahpla.c - c program to print alpha in reverse order
 8-print_base16.c - c program to display hex nums
 9-print_comb.c - c program to arrange numbers in ascending order
+100-print_comb3.c - c program that prints double digit numbers with out repetitions.
