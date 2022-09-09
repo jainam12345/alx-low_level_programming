@@ -7,3 +7,4 @@ C -programs using logic controls and loops
 5-print_numbers.c - c program to print nums from 0-9
 6-print_numberz.c - C program to display nums using putchar
 7-print_tebahpla.c - c program to print alpha in reverse order
+8-print_base16.c - c program to display hex nums
