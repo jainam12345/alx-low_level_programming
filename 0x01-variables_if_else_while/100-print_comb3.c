@@ -5,11 +5,13 @@
 */
 int main(void)
 {
+	int i = 0;
 	int j;
 
-	for (int i = 0; i < 10; i++)
+	while (i < 10)
 	{
-		for (j = i + 1; j < 10; j++)
+		j = i + 1;
+		while (j < 10)
 		{
 			putchar((i % 10) + '0');
 			putchar((j % 10) + '0');
@@ -18,7 +20,9 @@ int main(void)
 				putchar(',');
 				putchar(' ');
 			}
+			j++;
 		}
+		i++;
 	}
 	putchar('\n');
 
