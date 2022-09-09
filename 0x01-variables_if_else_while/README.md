@@ -8,3 +8,4 @@ C -programs using logic controls and loops
 6-print_numberz.c - C program to display nums using putchar
 7-print_tebahpla.c - c program to print alpha in reverse order
 8-print_base16.c - c program to display hex nums
+9-print_comb.c - c program to arrange numbers in ascending order
