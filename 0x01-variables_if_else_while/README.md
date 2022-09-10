@@ -11,3 +11,4 @@ C -programs using logic controls and loops
 9-print_comb.c - c program to arrange numbers in ascending order
 100-print_comb3.c - c program that prints double digit numbers with out repetitions.
 101-print_comb4.c -c program for 3 number combinations
+102-print_comb5.c - c program that prints double digit numbers
