@@ -6,3 +6,4 @@ C-program for nested loops
 4-isalpha.c - c program to check alphabetical character
 5-sign.c - c program to check sign of number
 6-abs.c - c program to calculate abs values
+7-print_last_digit.c - c program that prints the last digit
