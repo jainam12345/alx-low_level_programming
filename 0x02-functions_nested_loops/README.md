@@ -8,3 +8,4 @@ C-program for nested loops
 6-abs.c - c program to calculate abs values
 7-print_last_digit.c - c program that prints the last digit
 8-24_hours.c - c program to print hours and mins
+9-times_table.c - c program that displays tables up to 9
