@@ -12,3 +12,4 @@ C-program for nested loops
 10-add.c - cprogram to add 2 nums
 11-print_to_98.c - c program to print natural numbers
 100-times_table.c - c program to cal n times tables
+101-natural.c - c program that sums the multiples of a number
