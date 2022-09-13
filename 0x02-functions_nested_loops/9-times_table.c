@@ -1,53 +1,43 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *times_table - displays tables from 0 to 9
+ *times_table - multiplcation table
  *Return: nothing
 */
 void times_table(void)
 {
-	int i = 0;
-	int prod = 0;
+	int row = 0;
+	int column;
+	int product;
 
-	while (i < 10)
+	while (row <= 9)
 	{
-		int j = 0;
-
-		while (j < 10)
+		column = 0;
+		while (column <= 9)
 		{
-			prod = i * j;
-			if (j != 9)
+			product = (row * column);
+
+			if (column == 0)
 			{
-				if (prod > 9)
-				{
-					_putchar((prod / 10) + '0');
-					_putchar((prod % 10) + '0');
-					_putchar(',');
-					_putchar(' ');
-				}
-				else
-				{
-					_putchar((prod % 10) + '0');
-					_putchar(',');
-					_putchar(' ');
-					_putchar(' ');
-				}
+				_putchar('0' + product);
 			}
-			else
+			else if (product <= 9)
 			{
-				if (prod > 9)
-				{
-					_putchar((prod / 10) + '0');
-					_putchar((prod % 10) + '0');
-				}
-				else
-				{
-					_putchar((prod % 10) + '0');
-				}
+				_putchar(',');
+				_putchar(' ');
+				_putchar(' ');
+				_putchar('0' + product);
 			}
-			j++;
+			else if (product > 9)
+			{
+				_putchar(',');
+				_putchar(' ');
+				_putchar('0' + (product / 10));
+				_putchar('0' + (product % 10));
+			}
+			column++;
 		}
+		row++;
 		_putchar('\n');
-		i++;
 	}
 }
