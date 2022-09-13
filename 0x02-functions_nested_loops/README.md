@@ -9,3 +9,4 @@ C-program for nested loops
 7-print_last_digit.c - c program that prints the last digit
 8-24_hours.c - c program to print hours and mins
 9-times_table.c - c program that displays tables up to 9
+10-add.c - cprogram to add 2 nums
