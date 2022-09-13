@@ -11,3 +11,4 @@ C-program for nested loops
 9-times_table.c - c program that displays tables up to 9
 10-add.c - cprogram to add 2 nums
 11-print_to_98.c - c program to print natural numbers
+100-times_table.c - c program to cal n times tables
