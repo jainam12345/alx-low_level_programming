@@ -16,19 +16,34 @@ void times_table(void)
 		while (j < 10)
 		{
 			prod = i * j;
-			if (prod > 9)
+			if (j != 9)
 			{
-				_putchar((prod / 10) + '0');
-				_putchar((prod % 10) + '0');
+				if (prod > 9)
+				{
+					_putchar((prod / 10) + '0');
+					_putchar((prod % 10) + '0');
+					_putchar(',');
+					_putchar(' ');
+				}
+				else
+				{
+					_putchar((prod % 10) + '0');
+					_putchar(',');
+					_putchar(' ');
+					_putchar(' ');
+				}
 			}
 			else
 			{
-				_putchar((prod % 10) + '0');
-			}
-			if (j != 9)
-			{
-			_putchar(',');
-			_putchar('\t');
+				if (prod > 9)
+				{
+					_putchar((prod / 10) + '0');
+					_putchar((prod % 10) + '0');
+				}
+				else
+				{
+					_putchar((prod % 10) + '0');
+				}
 			}
 			j++;
 		}
