@@ -5,3 +5,4 @@ C-program for nested loops
 3-islower.c - c program to test if letter is lowercase
 4-isalpha.c - c program to check alphabetical character
 5-sign.c - c program to check sign of number
+6-abs.c - c program to calculate abs values
