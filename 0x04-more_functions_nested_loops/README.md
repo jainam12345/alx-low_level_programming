@@ -5,3 +5,6 @@ More function directory
 3-print_numbers.c - prints numbers 0-9
 4-print_most_numbers.c - prints from 0 - 9  but not 2 and 4
 5-more_numbers.c - print the numbers 0 - 14, ten times
+6-print_line.c - prints out a line
+7-print_diagonal.c - prints backslashes in diagonals
+7-print_diagonal.c - prints diagonals
