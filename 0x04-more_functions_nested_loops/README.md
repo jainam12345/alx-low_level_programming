@@ -8,3 +8,4 @@ More function directory
 6-print_line.c - prints out a line
 7-print_diagonal.c - prints backslashes in diagonals
 7-print_diagonal.c - prints diagonals
+8-print_square.c - printing square #
