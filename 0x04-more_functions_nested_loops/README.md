@@ -12,3 +12,4 @@ More function directory
 9-fizz_buzz.c - fizzbuzz
 10-print_triangle.c - prints a triangle
 100-prime_factor.c - prints prime factors
+101-print_number.c - prints numbers
