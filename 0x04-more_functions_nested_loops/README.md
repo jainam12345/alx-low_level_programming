@@ -9,3 +9,5 @@ More function directory
 7-print_diagonal.c - prints backslashes in diagonals
 7-print_diagonal.c - prints diagonals
 8-print_square.c - printing square #
+9-fizz_buzz.c - fizzbuzz
+10-print_triangle.c - prints a triangle
