@@ -7,3 +7,4 @@ Projects on pointers
 5-rev_string.c - reverses words of a string
 6-puts2.c - prints every other character of a string
 7-puts_half.c - prints second half of the string
+8-print_array.c - prints elements of an array
