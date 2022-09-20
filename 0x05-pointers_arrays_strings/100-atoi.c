@@ -4,22 +4,23 @@
  *_atoi - converts chars to int
  *@s: input chars
  *Return: 0 if successful and 0 otherwise
-*/
+ */
 int _atoi(char *s)
 {
-	int i;
+	int sign_cache = 1;
+	int result = 0;
 
-	for (i = 0; s[i] != '\0'; i++)
+	while (s[0] != '\0')
 	{
-		if (s[i] >= '0' && s[i] <= '9')
-		{
-			if (s[i - 1] == '-')
-			{
-				putchar('-');
-			}
-			printf("%d", s[i] - '0');
-		}
+		if (s[0] == '-')
+			sign_cache *= -1;
+		else if (s[0] >= '0' && s[0] <= '9')
+			result = (result * 10) + (s[0] - '0') * sign_cache;
+		else if (result)
+			break;
+
+		s++;
 	}
 
-	return (0);
+	return (result);
 }
