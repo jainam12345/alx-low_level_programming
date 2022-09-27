@@ -19,7 +19,7 @@ char *_strstr(char *haystack, char *needle)
 		}
 		else if (*needle == '\0')
 		{
-			break;
+			return ((haystack - i));
 		}
 		else
 		{
