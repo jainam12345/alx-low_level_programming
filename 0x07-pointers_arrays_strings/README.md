@@ -6,3 +6,4 @@ Pointers and arrays
 3-strspn.c - return the length of first sub-string that contains the characters in ref str
 4-strpbrk.c - Looks for first occurerence of a character and return the rest 
 5-strstr.c - Locate a sub-string
+7-print_chessboard.c - print a chess board
