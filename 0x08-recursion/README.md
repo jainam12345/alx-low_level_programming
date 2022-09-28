@@ -4,3 +4,4 @@ Recursion projects
 2-strlen_recursion.c - prints length of string
 3-factorial.c - factorial value
 4-pow_recursion.c - calculates the power of a number
+5-sqrt_recursion.c - calculates square root
