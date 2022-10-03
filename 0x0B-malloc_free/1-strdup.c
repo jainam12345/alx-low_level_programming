@@ -8,23 +8,26 @@
 */
 char *_strdup(char *str)
 {
-	int i, j;
+	int i, j, len;
 	char *arr;
 
 	if (str == NULL)
 	{
 		return (NULL);
 	}
-
-	while (*str != '\0')
+	i = 0;
+	len = 0;
+	while (*(str + i) != '\0')
 	{
 		i++;
+		len++;
 	}
-	arr = malloc(sizeof(char) * i);
+	len++;
+	arr = malloc(sizeof(char) * len);
 	j = 0;
-	while (j < i)
+	while (j < len)
 	{
-		arr[j] = str[j];
+		*(arr + j) = *(str + j);
 		j++;
 	}
 
