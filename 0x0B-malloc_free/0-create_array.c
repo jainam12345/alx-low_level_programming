@@ -16,7 +16,7 @@ char *create_array(unsigned int size, char c)
 	{
 		return (NULL);
 	}
-	else
+	else if (size > 0)
 	{
 		while (i < size)
 		{
@@ -24,5 +24,9 @@ char *create_array(unsigned int size, char c)
 			i++;
 		}
 		return (arry);
+	}
+	else
+	{
+		return (NULL);
 	}
 }
