@@ -13,6 +13,11 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	unsigned int i = 0, k, counter = 0, j = 0, total_char;
 	char *new;
 
+
+	if (s1 == NULL)
+		s1 = "";
+	if (s2 == NULL)
+		s2 = "";
 	k = 0;
 	while (*(s1 + k) != '\0')
 	{
